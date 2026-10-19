@@ -1,0 +1,82 @@
+/* Little Chef Custom Dark Theme Stylesheet */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0b0b0b;
+    color: #f8f9fa;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #0d0d0d !important;
+    border-bottom: 1px solid #4A1F1F;
+}
+
+.navbar-brand {
+    font-size: 1.25rem;
+    letter-spacing: 0.5px;
+    color: #ffffff !important;
+}
+
+.nav-link {
+    color: #D1C0A6 !important;
+}
+
+.nav-link.active, .nav-link:hover {
+    color: #ffffff !important;
+}
+
+/* Hero & Cards Layout */
+.card, .bg-white, .bg-light {
+    background-color: #121212 !important;
+    border: 1px solid #1f1f1f !important;
+    color: #ffffff !important;
+    border-radius: 8px !important;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    border-color: #4A1F1F !important;
+}
+
+/* Headings & Text */
+h1, h2, h3, h4, h5, h6, .text-dark {
+    color: #ffffff !important;
+}
+
+.lead, .text-muted, p.small {
+    color: #888888 !important;
+}
+
+/* Featured Rolls Box Inside Hero */
+.col-lg-6 .bg-light {
+    background-color: #181818 !important;
+    border: 1px solid #242424 !important;
+}
+
+/* Benefit Numbers (1, 2, 3) */
+.display-6.text-primary {
+    color: #3b82f6 !important; /* Cool blue accent from reference image */
+}
+
+/* Buttons */
+.btn-dark {
+    background-color: #262626 !important;
+    border: 1px solid #333333 !important;
+    color: #ffffff !important;
+}
+
+.btn-dark:hover {
+    background-color: #333333 !important;
+}
+
+.btn-warning {
+    background-color: #f59e0b !important;
+    border: none !important;
+    color: #000000 !important;
+    border-radius: 6px;
+}
+
+.btn-warning:hover {
+    background-color: #d97706 !important;
+}
